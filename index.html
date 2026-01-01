@@ -55,7 +55,7 @@
             </div>
         </div>
     </div>
-    <script src="Build/Erawan.loader.js"></script>
+    <script src="Build/WorldTrackerProject.loader.js"></script>
     <script>
             var container = document.querySelector("#unity-container");
             var canvas = document.querySelector("#unity-canvas");
@@ -73,9 +73,9 @@
                 document.getElementById("startWebcamDiv").style.display = "none";
 
                 createUnityInstance(document.querySelector("#unity-canvas"), {
-                    dataUrl: "Build/Erawan.data",
-                    frameworkUrl: "Build/Erawan.framework.js",
-                    codeUrl: "Build/Erawan.wasm",
+                    dataUrl: "Build/WorldTrackerProject.data",
+                    frameworkUrl: "Build/WorldTrackerProject.framework.js",
+                    codeUrl: "Build/WorldTrackerProject.wasm",
                     streamingAssetsUrl: "StreamingAssets",
                     companyName: "DefaultCompany",
                     productName: "WorldTrackerProject",
